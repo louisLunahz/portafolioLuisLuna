@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Squada One', cursive;
+}
+body{
+    overflow: hidden;
+}
+
+
+.fila1, .fila2{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    max-height: 50vh;
+}
+.resaltado{
+   font-size: x-large;
+   color: #0a81ab;
+}
+
+
+.columna1, .columna2, .columna3, .columna4{
+    cursor: pointer;
+    color: whitesmoke;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: x-large;
+    height: 100%;
+    width: 50%;
+    max-width: 50%;
+    max-height: 100%;
+    min-width: 50%;
+    min-height: 100%;
+    
+}
+.columna1{
+    background: #1b1a17;
+    background-size: cover;
+}
+.columna1:hover{
+    background:url(img/uno.png);
+    background-size: cover;
+}
+.columna1 p{
+    font-size: medium;
+    color: aliceblue;
+}
+.columna1 strong{
+    font-size: x-large;
+}
+.presentacion{
+    padding-top: 5%;
+    width: 90%;
+    height: 50%;
+    max-width: 90%;
+    max-height: 60%;
+}
+.columna2:hover{
+    background:url(img/dos.png);
+    background-size: cover;
+}
+.columna3:hover{
+    background:url(img/tres.png);
+    background-size: cover;
+}
+.columna4:hover{
+    background:url(img/cuatro.png);
+    background-size: cover;
+}
+.columna2{
+    background: #232323;
+    background-size: cover;
+}
+.columna3{
+    background: #232323;
+    background-size: cover;
+}
+.columna4{
+    
+    background: #1b1a17;
+    background-size: cover;
+
+}
+.columna1:hover, .columna2:hover, .columna3:hover, .columna4:hover{
+    transform: scale(1.03);
+    background-size: cover;
+    transition: 2s;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    color: #0a81ab;
+
+}
+
+.columna1 img {
+    height: 40%;
+    max-height: 40%;
+    width: auto;
+    border-radius: 50%;
+    padding: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imgskills{
+    height: 40%;
+    max-width: 100%;
+    max-height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.imgskills img{
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+}
+.titulo{
+    height: 40%;
+    width: 100%;
+    max-height: 40%;
+    max-width: 100%;
+    display: inline-block;
+}
+.redes{
+
+    
+}
+.red{
+    height: 50px;
+    width: auto;
+    max-height: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
