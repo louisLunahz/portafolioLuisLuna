@@ -7,53 +7,61 @@
    padding: 0;
    font-family: 'Squada One', cursive;
 }
-body{
-    overflow: hidden;
-}
-
 
 .fila1, .fila2{
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    max-height: 50vh;
+    max-width: 100vw;
+    min-width: 100vw;
 }
-.resaltado{
-   font-size: x-large;
-   color: #0a81ab;
-}
-
-
 .columna1, .columna2, .columna3, .columna4{
-    cursor: pointer;
-    color: whitesmoke;
     display: flex;
     align-items:center;
     justify-content: space-around;
     flex-direction: column;
     font-size: x-large;
-    height: 100%;
-    width: 50%;
-    max-width: 50%;
-    max-height: 100%;
-    min-width: 50%;
-    min-height: 100%;
+    cursor: pointer;
+    color: whitesmoke;  
+    width: 100%;
+    min-width: 100%;
+    
     
 }
 .columna1{
-    background: #1b1a17;
+    background: #132c33;
     background-size: cover;
+    height: 100vh;
 }
 .columna1:hover{
-    background:url(img/uno.png);
+    
     background-size: cover;
+
 }
 .columna1 p{
     font-size: medium;
     color: aliceblue;
 }
 .columna1 strong{
-    font-size: x-large;
+    
+    background-size: cover;
+    font-size: xx-large;
+}
+.columna2{
+    background: url(img/dos.png);
+    background-size: cover;
+    height: 100vh;
+}
+.columna3{
+    background: url(img/fondo.png);
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+.columna4{
+    background: #132c33;
+    background-size: cover;
+    height: 100vh;
+    
+
 }
 .presentacion{
     padding-top: 5%;
@@ -62,43 +70,6 @@ body{
     max-width: 90%;
     max-height: 60%;
 }
-.columna2:hover{
-    background:url(img/dos.png);
-    background-size: cover;
-}
-.columna3:hover{
-    background:url(img/tres.png);
-    background-size: cover;
-}
-.columna4:hover{
-    background:url(img/cuatro.png);
-    background-size: cover;
-}
-.columna2{
-    background: #232323;
-    background-size: cover;
-}
-.columna3{
-    background: #232323;
-    background-size: cover;
-}
-.columna4{
-    
-    background: #1b1a17;
-    background-size: cover;
-
-}
-.columna1:hover, .columna2:hover, .columna3:hover, .columna4:hover{
-    transform: scale(1.03);
-    background-size: cover;
-    transition: 2s;
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
-    color: #0a81ab;
-
-}
-
 .columna1 img {
     height: 40%;
     max-height: 40%;
@@ -107,19 +78,15 @@ body{
     padding: 5%;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.imgskills{
+.resaltado{
+    font-size: xx-large;
+    color: #ffffff;
+ }
+ 
+ 
+    
+    
+ .imgskills{
     height: 40%;
     max-width: 100%;
     max-height: 40%;
@@ -153,11 +120,88 @@ body{
     
 }
 
+.columna2:hover{
+   
+    background-size: cover;
+}
+.columna3:hover{
+   
+    background-size: cover;
+}
+.columna4:hover{
+    
+    background-size: cover;
+}
+
+.columna1:hover, .columna2:hover, .columna3:hover, .columna4:hover{
+    transform: scale(1.03);
+    background-size: cover;
+    transition: 1s;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    
+    background:#39a6a3;
+
+}
 
 
 
 
 
+
+@media (min-width: 800px){
+
+    body{
+        overflow: hidden;
+    }
+    
+
+    .fila1{
+        height: 70vh;
+        width: 100vw;
+        display: flex;
+        max-height: 70vh;
+        min-height: 70vh;
+        max-width: 100vw;
+        min-width: 50vw;
+    }
+
+    .fila2{
+        height: 30vh;
+        display: flex;
+        min-height: 30hv;
+    }
+    
+
+    
+    
+    .columna1, .columna2, .columna3, .columna4{
+
+        height: 100%;
+        width: 50%;
+        max-width: 50%;
+        max-height: 100%;
+        min-width: 50%;
+        min-height: 100%;
+        
+    }
+
+    .columna1, .columna3{
+        width: 60vw;
+        height: 100%;
+        min-width: 60vw;
+        max-width: 60vw;
+    }
+    .columna2, .columna4{
+        width: 40vw;
+        height: 100%;
+        min-width: 40vw;
+        max-width: 40vw;
+    }
+
+ 
+}
 
 
 
