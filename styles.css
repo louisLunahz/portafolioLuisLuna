@@ -103,9 +103,10 @@
 
 
 .contenido img{
-    height: 100%;
-    width: auto;
+    width: 30%;
+    height: auto;
     border-radius: 50%;
+    
 }
 
 
